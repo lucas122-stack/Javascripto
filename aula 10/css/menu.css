@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    background-image: linear-gradient(to top, rgb(203, 207, 195), white);
+}
+
+.menu > ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+    
+}
+
+.menu > ul > li > a{
+    font-weight: 5px;
+    color: rgb(97, 82, 82);
+    letter-spacing: 0.2rem;
+    transition: 0.4s;
+}
+
+.menu > ul > li:hover > a{
+    text-shadow: 1px 1px 1px rgba(24, 20, 20, 0.2);
+    box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.3rem;
+}
