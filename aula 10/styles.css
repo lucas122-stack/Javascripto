@@ -1,5 +1,7 @@
-@import url(./header.css);
-@import url(./menu.css);
+@import url(./css/header.css);
+@import url(./css/menu.css);
+@import url(./css/img-inicial.css);
+@import url(./css/img-2.css);
 
 @font-face {
     font-family: "otica";
@@ -24,6 +26,10 @@ body {
     width: 100%;
 }
 
+main{
+    width: 100%;
+    margin: 0%;
+}
 ul {
     list-style: none;
 }
@@ -44,6 +50,7 @@ a {
 /* ------------------------menu----------------------- */
 
 /* --------------------main---------------- */
+
 
 
 
