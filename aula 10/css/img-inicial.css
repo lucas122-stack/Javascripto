@@ -34,7 +34,7 @@
 }
 .image-text > a:hover {
     letter-spacing: 0.1rem;
-    text-shadow: 16px 16px 4px rgb(56, 47, 47);
+    text-shadow: rgb(49, 49, 4); 
 }
 
 .image-text2 {
